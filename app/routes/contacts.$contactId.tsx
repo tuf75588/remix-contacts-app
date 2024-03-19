@@ -1,13 +1,12 @@
 import { Form } from "@remix-run/react";
 import type { FunctionComponent } from "react";
-
 import type { ContactRecord } from "../data";
 
 export default function Contact() {
   const contact = {
     first: "Your",
     last: "Name",
-    avatar: "https://placekitten.com/200/138",
+    avatar: "https://placehold.co/300x200",
     twitter: "your_handle",
     notes: "Some notes",
     favorite: true,
